@@ -231,7 +231,7 @@ namespace MOAction
                 {
                     var action = oldActions[i];
 
-                    if (action.CanTargetParty && !action.IsPvP && !action.IsRoleAction)
+                    if (action.CanTargetParty && !action.IsRoleAction)
                     {
                         if (!lastClassJob.Equals(ClassJobCategoryToName_(action.ClassJobCategory)))
                         {
@@ -246,7 +246,7 @@ namespace MOAction
                                     {
                                         break;
                                     }
-                                    if (action.CanTargetParty && !action.IsPvP && !action.IsRoleAction)
+                                    if (action.CanTargetParty && !action.IsRoleAction)
                                     {
                                         ImGui.Indent();
                                         ImGui.Checkbox(action.AbilityName, ref flagsSelected[j]);
@@ -269,7 +269,7 @@ namespace MOAction
                 {
                     var action = oldActions[i];
 
-                    if (action.CanTargetHostile && !action.IsPvP && !action.IsRoleAction)
+                    if (action.CanTargetHostile && !action.IsRoleAction)
                     {
                         if (!lastClassJob.Equals(ClassJobCategoryToName_(action.ClassJobCategory)))
                         {
@@ -284,7 +284,7 @@ namespace MOAction
                                     {
                                         break;
                                     }
-                                    if (action.CanTargetHostile && !action.IsPvP && !action.IsRoleAction)
+                                    if (action.CanTargetHostile && !action.IsRoleAction)
                                     {
                                         ImGui.Indent();
                                         ImGui.Checkbox(action.AbilityName, ref flagsSelected[j]);
