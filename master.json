@@ -5,7 +5,7 @@
         "Description": "test",
         "InternalName": "MO test",
         "AssemblyVersion": "1",
-        "RepoUrl": "https://github.com/bSharks/MOActionPlugin", https://github.com/bSharks/MOActionPlugin/archive/refs/heads/master.zip
+        "RepoUrl": "https://github.com/bSharks/MOActionPlugin",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 4,
         "DownloadLinkInstall": "https://github.com/bSharks/MOActionPlugin/archive/refs/heads/master.zip",
