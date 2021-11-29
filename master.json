@@ -1,0 +1,19 @@
+[
+    {
+        "Author": "test",
+        "Name": "MO test",
+        "Description": "test",
+        "InternalName": "MO test",
+        "AssemblyVersion": "1",
+        "RepoUrl": "https://github.com/bSharks/MOActionPlugin", https://github.com/bSharks/MOActionPlugin/archive/refs/heads/master.zip
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 4,
+        "DownloadLinkInstall": "https://github.com/bSharks/MOActionPlugin/archive/refs/heads/master.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/bSharks/MOActionPlugin/archive/refs/heads/master.zip",
+        "DownloadLinkUpdate": "https://github.com/bSharks/MOActionPlugin/archive/refs/heads/master.zip",
+        "DownloadCount": 0,
+        "LastUpdated": "Never"
+    }
+]
