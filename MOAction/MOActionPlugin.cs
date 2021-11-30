@@ -320,7 +320,7 @@ namespace MOAction
                                     {
                                         break;
                                     }
-                                    if (!action.IsPvP && (action.CanTargetHostile || action.CanTargetParty)){
+                                    if (action.CanTargetHostile || action.CanTargetParty){
                                         ImGui.Indent();
                                         ImGui.Checkbox(action.AbilityName, ref flagsSelected[j]);
                                         ImGui.Unindent();
@@ -931,7 +931,6 @@ namespace MOAction
                 return applicableActions.
                         Where(item => ClassJobCategoryToName(item.ClassJobCategory).
                                         Contains(soloJobNames[index]) &&
-                                        !item.IsPvP &&
                                         (item.CanTargetParty || item.CanTargetHostile)).
                         ToList();
             }
